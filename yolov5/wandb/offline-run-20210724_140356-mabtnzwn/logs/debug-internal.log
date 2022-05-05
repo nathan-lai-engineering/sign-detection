@@ -1,0 +1,11 @@
+2021-07-24 14:03:57,766 INFO    MainThread:499 [internal.py:wandb_internal():91] W&B internal server running at pid: 499, started at: 2021-07-24 14:03:57.763788
+2021-07-24 14:03:57,769 DEBUG   HandlerThread:499 [handler.py:handle_request():124] handle_request: run_start
+2021-07-24 14:03:57,769 INFO    WriterThread:499 [datastore.py:open_for_write():80] open: /content/drive/My Drive/Colab Notebooks/YOLOv5/yolov5/wandb/offline-run-20210724_140356-mabtnzwn/run-mabtnzwn.wandb
+2021-07-24 14:03:59,201 DEBUG   HandlerThread:499 [meta.py:__init__():39] meta init
+2021-07-24 14:03:59,201 DEBUG   HandlerThread:499 [meta.py:__init__():53] meta init done
+2021-07-24 14:03:59,202 DEBUG   HandlerThread:499 [meta.py:probe():210] probe
+2021-07-24 14:03:59,212 DEBUG   HandlerThread:499 [meta.py:_setup_git():200] setup git
+2021-07-24 14:03:59,254 DEBUG   HandlerThread:499 [meta.py:_setup_git():207] setup git done
+2021-07-24 14:03:59,254 DEBUG   HandlerThread:499 [meta.py:_save_pip():57] save pip
+2021-07-24 14:03:59,258 DEBUG   HandlerThread:499 [meta.py:_save_pip():71] save pip done
+2021-07-24 14:03:59,259 DEBUG   HandlerThread:499 [meta.py:probe():252] probe done
