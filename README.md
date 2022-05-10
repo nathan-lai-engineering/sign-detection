@@ -6,33 +6,33 @@ https://github.com/ultralytics/yolov5
 There is a current issue regarding version incompatibility between the version of YOLOv5 we used and Torch.
 Please refer to https://github.com/ultralytics/yolov5/issues/6948 for fixing this issue.
 
-Cells Explained
+<h1>Cells Explained</h1>
 
-Setup
+<h3>Setup</h3>
 Enters the YOLOv5 directory and double checks the device used for detection
 
-Inference
-1. Parameters
+<h2>Inference</h2>
+<h3>1. Parameters</h3>
 The cell where things such as directory and other settings can be adjusted for the rest of inference.
 Requires setting up a videos folder if not using an existing one already.
 
-2. Functions
+<h3>2. Functions</h3>
 Utility functions to be used later on
 
-3. Detection
+<h3>3. Detection</h3>
 The call to the YOLOv5 architecture to perform inference on a set up videos as denoted in the paramters cell.
 
-4. Process Labels
+<h3>4. Process Labels</h3>
 Post-processes the raw output from YOLOv5 to fill in gaps, remove outliers, and group together detections.
 
-5. OCR
+<h3>5. OCR</h3>
 Runs OCR on groupings of detections to verify results from YOLOv5 and assign speed limit numbers.
 
-6. Generate snippet highlights
+<h3>6. Generate snippet highlights</h3>
 Creates video snippets of every grouping of detection for ease of double checking
 
-7. Generate results
+<h3>7. Generate results</h3>
 Creates a more human readable csv for detections
 
-8. Generate videos
+<32>8. Generate videos</h3>
 Creates a full video with bounding boxes of detections.
