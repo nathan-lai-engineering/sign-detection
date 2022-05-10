@@ -162,7 +162,7 @@ def run(weights='yolov5s.pt',  # model.pt path(s)
                       if not csv_name in os.listdir(save_csv):
                         with open(csv_path, "w") as create_csv:
                           pass 
-                      with open(csv_path, "a") as append_csv:
+                      with open(csv_path, "a", newline='') as append_csv:
                         csv_writer = csv.writer(append_csv)
                         csv_writer.writerow([frame, ('%g ' * len(line)).rstrip() % line + '\n'])
     
