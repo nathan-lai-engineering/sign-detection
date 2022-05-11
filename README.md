@@ -34,5 +34,5 @@ Creates video snippets of every grouping of detection for ease of double checkin
 <h3>7. Generate results</h3>
 Creates a more human readable csv for detections
 
-<32>8. Generate videos</h3>
+<h2>8. Generate videos</h3>
 Creates a full video with bounding boxes of detections.
