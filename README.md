@@ -6,7 +6,21 @@ https://github.com/ultralytics/yolov5
 There is a current issue regarding version incompatibility between the version of YOLOv5 we used and Torch.
 Please refer to https://github.com/ultralytics/yolov5/issues/6948 for fixing this issue.
 
-<h1>Cells Explained</h1>
+<h1>Examples</h1>
+<img src="https://github.com/nathan-lai-engineering/sign-detection/blob/main/readme-images/example%201.PNG?raw=true">
+Above, frame displaying detection of stop sign
+
+</br>
+</br>
+<img src="https://github.com/nathan-lai-engineering/sign-detection/blob/main/readme-images/example%202.PNG?raw=true">
+Above, frame displaying detection of speed limit including number on sign
+
+</br>
+</br>
+<img src="https://github.com/nathan-lai-engineering/sign-detection/blob/main/readme-images/example%203.PNG?raw=true">
+Above, frame displaying false sign detection by YOLOv5, but caught by EasyOCR as urdbl (unreadable)
+
+<h1>Usage</h1>
 
 <h3>Setup</h3>
 Enters the YOLOv5 directory and double checks the device used for detection
